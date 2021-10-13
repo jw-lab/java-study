@@ -24,7 +24,6 @@ public class CheckPassLimit {
 			}
 			else
 				System.out.println("비번이 틀렸습니다");
-				continue;
 		} 
 		
 	}
