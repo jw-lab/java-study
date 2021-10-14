@@ -6,11 +6,11 @@ public class CheckPassword {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String USER_PASSWORD = "hello";
+		final String USER_PASSWORD = "hello";
+		Scanner scan = new Scanner(System.in);
 		
 		System.out.print("Enter password > ");
 		
-		Scanner scan = new Scanner(System.in);
 		String password = scan.nextLine();
 		scan.close();
 		
