@@ -23,8 +23,8 @@ public class Hangman {
 		if(isCorrect) {
 			if(word.isComplete()) {
 				System.out.println("맞췄어요!!");
-				System.out.println("총 시도횟수 : "+ (7-remainTries));
-				System.out.println("정답은 : "+word.getSelectWord());
+				System.out.println("시도횟수 : "+ remainTries);
+				System.out.println("정답은 : "+word.toString());
 				running = false;
 			}
 		} else {

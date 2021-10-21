@@ -16,9 +16,6 @@ public class RandomWord {
 		characters = new char[selectWord.length()];
 	}
 	
-	public String getSelectWord() {
-		return selectWord;
-	}
 
 	public String toString() {
 
@@ -36,15 +33,16 @@ public class RandomWord {
 		char[] temp=new char[selectWord.length()];
 		
 		for(int i=0;i<characters.length;i++)
-			temp[i]=characters[i];
+			temp[i]=characters[i];	//임시 배열 생성
 		
 		for(int i=0;i<selectWord.length();i++)
 			if(c == selectWord.charAt(i))
-				characters[i] = c;
+				characters[i] = c;	//넘겨받은 문자가 선택된 단어와 일치하면 대입,단어 끝까지 진행된다.
 		
 		for(int i=0;i<selectWord.length();i++)
 			if(temp[i] != characters[i])
-				return true;
+				return true;	//기존값과 변경된값을 비교하여 서로 다르면 true반환 
+		//addGuess의 리턴값이 isCorrect로 가서 true이면 isComplete를 다시 실행
 				
 		
 		return false;
