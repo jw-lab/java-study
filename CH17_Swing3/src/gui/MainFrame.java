@@ -12,13 +12,10 @@ public class MainFrame extends JFrame {
 		super(title); //JFrame에 타이틀을 생성
 		
 		MainPanel mainPanel = new MainPanel();
-		Toolbar toolbar = new Toolbar();
-		
-		toolbar.setColorChanger(mainPanel);
 		
 		setLayout(new BorderLayout() ); // 창에 컴포넌트(버튼 등)들을 붙이기 위함
 		
-		add(toolbar, BorderLayout.NORTH); //창 위쪽에 툴바를 붙인다
+		add(new Toolbar(mainPanel), BorderLayout.NORTH); //창 위쪽에 툴바를 붙인다
 		add(mainPanel, BorderLayout.CENTER); //메인프레임에 붙이기 (중앙 가운데 위치)
 		
 		setSize(600,400);// 창 사이즈
