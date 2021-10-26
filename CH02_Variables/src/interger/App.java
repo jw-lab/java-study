@@ -3,7 +3,7 @@ package interger;
 public class App {
 
 	public static void main(String[] args) {
-		// º¯¼ö ¸¸µé±â : 1. º¯¼ö ¼±¾ğ(ÀÚ·áÇü) 2. º¯¼ö ÃÊ±âÈ­
+		// ë³€ìˆ˜ ë§Œë“¤ê¸° : 1. ë³€ìˆ˜ ì„ ì–¸(ìë£Œí˜•) 2. ë³€ìˆ˜ ì´ˆê¸°í™”
 		int x;
 		x=7;
 		int y=10;

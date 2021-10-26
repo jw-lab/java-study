@@ -16,7 +16,7 @@ public class CheckPassDowhile {
 		} while(!password.equals(USER_PASSWORD));
 		
 		scan.close();
-		System.out.println("Á¢¼Ó½ÂÀÎ.");
+		System.out.println("ì ‘ì†ìŠ¹ì¸.");
 	}
 
 }

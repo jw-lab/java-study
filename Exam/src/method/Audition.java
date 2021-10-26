@@ -3,19 +3,19 @@ package method;
 public class Audition {
 
 	public static void main(String[] args) {
-		// º¯¼ö»ý¼º
+		// ë³€ìˆ˜ìƒì„±
 		double tomVocal =8.8;
 		double tomDance =7.6;
 		double kateVocal =9.2;
 		double kateDance =7.8;
 		
-		//°á°ú Ãâ·Â
-		System.out.printf("TomÀÇ ¿Àµð¼Ç °á°ú: %s\n",result(tomVocal,tomDance));
-		System.out.printf("KateÀÇ ¿Àµð¼Ç °á°ú: %s\n",result(kateVocal,kateDance));
+		//ê²°ê³¼ ì¶œë ¥
+		System.out.printf("Tomì˜ ì˜¤ë””ì…˜ ê²°ê³¼: %s\n",result(tomVocal,tomDance));
+		System.out.printf("Kateì˜ ì˜¤ë””ì…˜ ê²°ê³¼: %s\n",result(kateVocal,kateDance));
 	}
 
 	private static String result(double vocal, double dance) {
-		return vocal*dance >= 70.0 ? "ÇÕ°Ý":"ºÒÇÕ°Ý";
+		return vocal*dance >= 70.0 ? "í•©ê²©":"ë¶ˆí•©ê²©";
 	}
 
 }

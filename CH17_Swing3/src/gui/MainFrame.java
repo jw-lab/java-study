@@ -9,17 +9,17 @@ public class MainFrame extends JFrame {
 	private static final long serialVersionUID = 1L;
 
 	public MainFrame(String title) {
-		super(title); //JFrame¿¡ Å¸ÀÌÆ²À» »ı¼º
+		super(title); //JFrameì— íƒ€ì´í‹€ì„ ìƒì„±
 		
 		MainPanel mainPanel = new MainPanel();
 		
-		setLayout(new BorderLayout() ); // Ã¢¿¡ ÄÄÆ÷³ÍÆ®(¹öÆ° µî)µéÀ» ºÙÀÌ±â À§ÇÔ
+		setLayout(new BorderLayout() ); // ì°½ì— ì»´í¬ë„ŒíŠ¸(ë²„íŠ¼ ë“±)ë“¤ì„ ë¶™ì´ê¸° ìœ„í•¨
 		
-		add(new Toolbar(mainPanel), BorderLayout.NORTH); //Ã¢ À§ÂÊ¿¡ Åø¹Ù¸¦ ºÙÀÎ´Ù
-		add(mainPanel, BorderLayout.CENTER); //¸ŞÀÎÇÁ·¹ÀÓ¿¡ ºÙÀÌ±â (Áß¾Ó °¡¿îµ¥ À§Ä¡)
+		add(new Toolbar(mainPanel), BorderLayout.NORTH); //ì°½ ìœ„ìª½ì— íˆ´ë°”ë¥¼ ë¶™ì¸ë‹¤
+		add(mainPanel, BorderLayout.CENTER); //ë©”ì¸í”„ë ˆì„ì— ë¶™ì´ê¸° (ì¤‘ì•™ ê°€ìš´ë° ìœ„ì¹˜)
 		
-		setSize(600,400);// Ã¢ »çÀÌÁî
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);// Ã¢ ´İÀ»½Ã ÇÁ·Î±×·¥ Á¾·á
-		setVisible(true); // º¸ÀÌ°Ô ÇÏ±â
+		setSize(600,400);// ì°½ ì‚¬ì´ì¦ˆ
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);// ì°½ ë‹«ì„ì‹œ í”„ë¡œê·¸ë¨ ì¢…ë£Œ
+		setVisible(true); // ë³´ì´ê²Œ í•˜ê¸°
 	}
 }

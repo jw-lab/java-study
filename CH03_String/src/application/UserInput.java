@@ -7,11 +7,11 @@ public class UserInput {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);
-		System.out.print("¿Âµµ¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä : ");
+		System.out.print("ì˜¨ë„ë¥¼ ì…ë ¥í•´ ì£¼ì„¸ìš” : ");
 		double c = scan.nextDouble();
 		double f = (c * 9.0/5.0) +32.0;
 		
-		System.out.printf("¼·¾¾ %.1f´Â È­¾¾ %.1fÀÌ´Ù.",c,f);
+		System.out.printf("ì„­ì”¨ %.1fëŠ” í™”ì”¨ %.1fì´ë‹¤.",c,f);
 		
 		
 		

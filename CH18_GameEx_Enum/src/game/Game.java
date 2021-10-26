@@ -6,37 +6,37 @@ import java.util.Scanner;
 import game.objects.*;
 
 public class Game {
-	//°¡À§, ¹ÙÀ§, º¸
+	//ê°€ìœ„, ë°”ìœ„, ë³´
 	Random random = new Random();
 	Scanner scan = new Scanner(System.in);
 	
 	public void run() {
-		System.out.println("»ï¼¼ÆÇ °ÔÀÓ ½ÃÀÛÇÕ´Ï´Ù");
+		System.out.println("ì‚¼ì„¸íŒ ê²Œì„ ì‹œì‘í•©ë‹ˆë‹¤");
 		
 		int wins = 0;
 		for(int i=0;i<3;i++) {
-			System.out.println(i+1+"¹øÂ° °ÔÀÓ ½ÃÀÛ ...");
-			//À¯Àú ¼±ÅÃ
-			System.out.print("°¡À§(0),¹ÙÀ§(1),º¸(2) Áß ¼ıÀÚ·Î ¼±ÅÃ : ");
+			System.out.println(i+1+"ë²ˆì§¸ ê²Œì„ ì‹œì‘ ...");
+			//ìœ ì € ì„ íƒ
+			System.out.print("ê°€ìœ„(0),ë°”ìœ„(1),ë³´(2) ì¤‘ ìˆ«ìë¡œ ì„ íƒ : ");
 			
-			GameObject[] objects = GameObject.values();//ÀÌ³Ñ GameObjectÀÇ °ªµéÀ» ¹è¿­·Î ¸®ÅÏ
+			GameObject[] objects = GameObject.values();//ì´ë„˜ GameObjectì˜ ê°’ë“¤ì„ ë°°ì—´ë¡œ ë¦¬í„´
 			GameObject ob1 = objects[scan.nextInt()];
-			GameObject ob2 = objects[random.nextInt(objects.length)];// 3 ¹Ì¸¸ ·£´ı ¼ıÀÚ ->0~2
+			GameObject ob2 = objects[random.nextInt(objects.length)];// 3 ë¯¸ë§Œ ëœë¤ ìˆ«ì ->0~2
 			
-			System.out.println("´ç½ÅÀÇ ¼±ÅÃÀº : "+ ob1);
-			System.out.println("ÄÄÇ»ÅÍ ¼±ÅÃÀº : "+ ob2);
+			System.out.println("ë‹¹ì‹ ì˜ ì„ íƒì€ : "+ ob1);
+			System.out.println("ì»´í“¨í„° ì„ íƒì€ : "+ ob2);
 			
-			int score = ob1.compare(ob2);//0,1,-1 ºñ±è, ÀÌ±è, ÆĞ¹è
+			int score = ob1.compare(ob2);//0,1,-1 ë¹„ê¹€, ì´ê¹€, íŒ¨ë°°
 			wins += score;
 		}
-		System.out.println("ÃÖÁ¾ °á°ú´Â => ");	
-		//ºñ±³ °á°ú Ãâ·Â
+		System.out.println("ìµœì¢… ê²°ê³¼ëŠ” => ");	
+		//ë¹„êµ ê²°ê³¼ ì¶œë ¥
 		if(wins > 0)
-			System.out.println("´ç½ÅÀÇ ½Â¸®!");
+			System.out.println("ë‹¹ì‹ ì˜ ìŠ¹ë¦¬!");
 		else if(wins<0)
-			System.out.println("´ç½ÅÀÇ ÆĞ¹è!");
+			System.out.println("ë‹¹ì‹ ì˜ íŒ¨ë°°!");
 		else
-			System.out.println("ºñ°å½À´Ï´Ù!");
+			System.out.println("ë¹„ê²¼ìŠµë‹ˆë‹¤!");
 		
 		scan.close();
 	}

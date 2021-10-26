@@ -3,7 +3,7 @@ package array;
 public class MergeTwoArray {
 
 	public static void main(String[] args) {
-		// ¹è¿­ »ı¼º
+		// ë°°ì—´ ìƒì„±
 		int[] evens = {
 				0,2,4,6,8
 		};
@@ -11,11 +11,11 @@ public class MergeTwoArray {
 				1,3,5,7,9
 		};
 		
-		//¹è¿­ º´ÇÕ
+		//ë°°ì—´ ë³‘í•©
 		int[] result = merge(evens,odds);
 		
-		//°á°ú Ãâ·Â
-		System.out.print("°á°ú: ");
+		//ê²°ê³¼ ì¶œë ¥
+		System.out.print("ê²°ê³¼: ");
 		for(int i : result)
 			System.out.printf("%d ",i);
 	}

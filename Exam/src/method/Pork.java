@@ -8,7 +8,7 @@ public class Pork {
 		
 		double result=calc(weight,kCal);
 		
-		System.out.printf("ªÔ∞„ªÏ 3¿Œ∫–: %.2f kcal", result);
+		System.out.printf("ÏÇºÍ≤πÏÇ¥ 3Ïù∏Î∂Ñ: %.2f kcal", result);
 	}
 
 	private static double calc(int weight, double kCal) {

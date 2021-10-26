@@ -3,20 +3,20 @@ package method;
 public class Elevator {
 
 	public static void main(String[] args) {
-		//º¯¼ö »ý¼º
+		//ë³€ìˆ˜ ìƒì„±
 		int a=13;
 		int b=7;
 		int c=10;
 		
-		//°á°ú Ãâ·Â
-		System.out.printf("%dÃþ->%s ¿¤·¹º£ÀÌÅÍ\n",a,guide(a));
-		System.out.printf("%dÃþ->%s ¿¤·¹º£ÀÌÅÍ\n",b,guide(b));
-		System.out.printf("%dÃþ->%s ¿¤·¹º£ÀÌÅÍ\n",c,guide(c));
+		//ê²°ê³¼ ì¶œë ¥
+		System.out.printf("%dì¸µ->%s ì—˜ë ˆë² ì´í„°\n",a,guide(a));
+		System.out.printf("%dì¸µ->%s ì—˜ë ˆë² ì´í„°\n",b,guide(b));
+		System.out.printf("%dì¸µ->%s ì—˜ë ˆë² ì´í„°\n",c,guide(c));
 
 	}
 
 	private static String guide(int floor) {
-		return floor>=11 ?"°íÃþ":"ÀúÃþ";
+		return floor>=11 ?"ê³ ì¸µ":"ì €ì¸µ";
 	}
 
 }

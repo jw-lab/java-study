@@ -22,7 +22,7 @@ public class Food {
 
 	@Override
 	public String toString() {
-		return "Food {name: " + name + ", price: " + price + "¿ø }";
+		return "Food {name: " + name + ", price: " + price + "ì› }";
 	}
 	
 	

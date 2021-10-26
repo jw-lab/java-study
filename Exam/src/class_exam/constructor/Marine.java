@@ -33,7 +33,7 @@ public class Marine {
 
 
 	public void stimpack() {
-		System.out.printf("[%s]ÀÇ ½ºÆÀÆÑ: HP: %d ->", name, hp);
+		System.out.printf("[%s]ì˜ ìŠ¤íŒ€íŒ©: HP: %d ->", name, hp);
 		hp -= 10;
 		System.out.printf("%d\n",hp);
 	}

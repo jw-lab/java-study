@@ -6,7 +6,7 @@ public class App {
 		Person person = new Person();
 		
 		person.greet();
-		person.greet("Æë¼ö");
+		person.greet("íŽ­ìˆ˜");
 	}
 
 }

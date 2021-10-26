@@ -2,7 +2,7 @@ package anonymousClass;
 
 public class App {
 
-	private String name = "Æë¼ö";
+	private String name = "í­ìˆ˜";
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -11,19 +11,19 @@ public class App {
 	
 	private void start() {
 		//System.out.println(name);
-		Runnable runner = new Runnable() { //ÀÍ¸í Å¬·¡½º 
-			//ÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇÑ Å¬·¡½º¸¦ µû·Î ¸¸µéÁö ¾Ê°í 
-			//°´Ã¼¸¦ »ı¼ºÇÒ ½Ã ¹Ù·Î ÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇÏ´Â ÀÍ¸í Å¬·¡½º »ç¿ë
+		Runnable runner = new Runnable() { //ìµëª… í´ë˜ìŠ¤ 
+			//ì¸í„°í˜ì´ìŠ¤ë¥¼ êµ¬í˜„í•œ í´ë˜ìŠ¤ë¥¼ ë”°ë¡œ ë§Œë“¤ì§€ ì•Šê³  
+			//ê°ì²´ë¥¼ ìƒì„±í•  ì‹œ ë°”ë¡œ ì¸í„°í˜ì´ìŠ¤ë¥¼ êµ¬í˜„í•˜ëŠ” ìµëª… í´ë˜ìŠ¤ ì‚¬ìš©
 			@Override
 			public void run() {
-				System.out.println(name);//³»ºÎÅ¬·¡½º·Î ¿ÜºÎÅ¬·¡½ºÀÇ º¯¼ö »ç¿ë
+				System.out.println(name);//ë‚´ë¶€í´ë˜ìŠ¤ë¡œ ì™¸ë¶€í´ë˜ìŠ¤ì˜ ë³€ìˆ˜ ì‚¬ìš©
 			}
 		};
 		
 		activate(runner);
 //		------------------------------------
 		
-		//´õ °£´ÜÇÑ ¹æ¹ı, À§¿Í µ¿ÀÏÇÑ µ¿ÀÛÀÓ
+		//ë” ê°„ë‹¨í•œ ë°©ë²•, ìœ„ì™€ ë™ì¼í•œ ë™ì‘ì„
 		activate(new Runnable() {
 			@Override
 			public void run() {

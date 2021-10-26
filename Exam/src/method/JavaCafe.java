@@ -12,7 +12,7 @@ public class JavaCafe {
 	private static void printPay(double basePay, int hours) {
 		double pay = 0.0;
 		if(hours>60) {
-			System.out.println("ÃÊ°ú ±Ù¹«½Ã°£ ¿¡·¯!");
+			System.out.println("ì´ˆê³¼ ê·¼ë¬´ì‹œê°„ ì—ëŸ¬!");
 			return ;
 		}
 		else if(hours>40 && basePay>=8.0)
@@ -20,7 +20,7 @@ public class JavaCafe {
 		else if(hours<=40 && basePay>=8.0)
 			pay = basePay*hours;
 		else {	
-			System.out.println("ÃÖÀú ½Ã±Ş ¿¡·¯!");
+			System.out.println("ìµœì € ì‹œê¸‰ ì—ëŸ¬!");
 			return ;
 		}
 		 

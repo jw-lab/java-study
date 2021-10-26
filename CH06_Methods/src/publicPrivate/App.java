@@ -5,10 +5,10 @@ public class App {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Person p1 = new Person();
-		p1.setName("Æë");
+		p1.setName("í­");
 		p1.setAge(7);
 		
-//		p1.name = "±æµ¿";
+//		p1.name = "ê¸¸ë™";
 		
 		System.out.println(p1.getName());
 

@@ -6,13 +6,13 @@ public class DailyUser {
 		// TODO Auto-generated method stub
 		int[] users = {581,512,527,495,423,141,236};
 		
-		//ÃÑ À¯Àú °è»ê
+		//ì´ ìœ ì € ê³„ì‚°
 		int totalUsers = sum(users);
-		System.out.printf("ÃÑ »ç¿ëÀÚ: %d¸í\n",totalUsers);
+		System.out.printf("ì´ ì‚¬ìš©ì: %dëª…\n",totalUsers);
 		
-		//Æò±Õ À¯Àú °è»ê
+		//í‰ê·  ìœ ì € ê³„ì‚°
 		double dailyUser = avg(totalUsers,users.length);
-		System.out.printf("ÇÏ·ç Æò±Õ »ç¿ëÀÚ: %.2f¸í", dailyUser);
+		System.out.printf("í•˜ë£¨ í‰ê·  ì‚¬ìš©ì: %.2fëª…", dailyUser);
 	}
 
 	private static double avg(int totalUsers, int length) {

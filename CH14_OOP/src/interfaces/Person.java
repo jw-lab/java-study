@@ -5,7 +5,7 @@ public class Person implements Describable {
 	@Override
 	public String getDescription() {
 		// TODO Auto-generated method stub
-		return "Person �Դϴ�.";
+		return "Person 입니다.";
 	}
 
 }

@@ -32,7 +32,7 @@ public class Medic {
 
 
 	public void heal(Marine target) {
-		System.out.printf("[%s]ÀÇ Ä¡À¯! %s HP(%d ->",name,target.getName(),target.getHp());
+		System.out.printf("[%s]ì˜ ì¹˜ìœ ! %s HP(%d ->",name,target.getName(),target.getHp());
 		target.setHp(target.getHp()+10);
 		System.out.printf("%d)\n",target.getHp());
 	}

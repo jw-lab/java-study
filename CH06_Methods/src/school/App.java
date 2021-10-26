@@ -5,11 +5,11 @@ public class App {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Student st1 = new Student();
-		Student st2 = new Student("Æë¼ö",7,false,36.5);
-		Student st3 = new Student("±æµ¿",37,true,35.5);
-		Student st4 = new Student("¶óÀÌ¾ğ",17,false,37.5);
+		Student st2 = new Student("í­ìˆ˜",7,false,36.5);
+		Student st3 = new Student("ê¸¸ë™",37,true,35.5);
+		Student st4 = new Student("ë¼ì´ì–¸",17,false,37.5);
 		
-		st1.setName("¿À¸®¿Â");
+		st1.setName("ì˜¤ë¦¬ì˜¨");
 		st1.setAge(27);
 		st1.setVisible(false);
 		st1.setTemperature(34.5);

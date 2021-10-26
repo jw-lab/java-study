@@ -1,8 +1,8 @@
 package class_exam;
 
 public class Account {
-	private String num;//°èÁÂ¹øÈ£
-	private int balance;//ÀÜ¾×
+	private String num;//ê³„ì¢Œë²ˆí˜¸
+	private int balance;//ì”ì•¡
 	
 	public Account(String num, int balance) {
 		this.num = num;

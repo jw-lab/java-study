@@ -1,10 +1,10 @@
 package game.objects;
 
 public class Scissors extends GameObject {
-	//°¡À§ ¹ÙÀ§ º¸ 0 1 2
+	//ê°€ìœ„ ë°”ìœ„ ë³´ 0 1 2
 	public Scissors() {
 		// TODO Auto-generated constructor stub
 		setId(0);
-		setName("°¡À§");
+		setName("ê°€ìœ„");
 	}
 }

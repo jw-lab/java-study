@@ -3,13 +3,13 @@ package class_exam.constructor;
 public class Starcraft {
 
 	public static void main(String[] args) {
-		Marine marine = new Marine("¸¶¸°",80);
-		Medic medic = new Medic("¸Þµñ",60);
+		Marine marine = new Marine("ë§ˆë¦°",80);
+		Medic medic = new Medic("ë©”ë”•",60);
 		
-		//¸¶¸° ½ºÆÀÆÑ
+		//ë§ˆë¦° ìŠ¤íŒ€íŒ©
 		marine.stimpack();
 		
-		//¸Þµñ Ä¡·á -> ¸¶¸°
+		//ë©”ë”• ì¹˜ë£Œ -> ë§ˆë¦°
 		medic.heal(marine);
 	}
 

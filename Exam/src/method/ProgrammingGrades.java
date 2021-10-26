@@ -3,15 +3,15 @@ package method;
 public class ProgrammingGrades {
 
 	public static void main(String[] args) {
-		//º¯¼ö »ý¼º
+		//ë³€ìˆ˜ ìƒì„±
 		int score1 = 96;
 		int score2 = 85;
 		int score3 = 76;
 		
-		//°á°úÃâ·Â
-		System.out.printf("%dÁ¡ -> %s\n",score1,grade(score1));
-		System.out.printf("%dÁ¡ -> %s\n",score2,grade(score2));
-		System.out.printf("%dÁ¡ -> %s\n",score3,grade(score3));
+		//ê²°ê³¼ì¶œë ¥
+		System.out.printf("%dì  -> %s\n",score1,grade(score1));
+		System.out.printf("%dì  -> %s\n",score2,grade(score2));
+		System.out.printf("%dì  -> %s\n",score3,grade(score3));
 	}
 
 	private static String grade(int score) {

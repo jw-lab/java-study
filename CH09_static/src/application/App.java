@@ -5,13 +5,13 @@ public class App {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//String.formatÀº printf¸¦ ¹®ÀÚ¿­·Î ¸®ÅÏ
-		String catCount = String.format("°í¾çÀÌ ¼ıÀÚ : %d\n", Cat.getCount());
+		//String.formatì€ printfë¥¼ ë¬¸ìì—´ë¡œ ë¦¬í„´
+		String catCount = String.format("ê³ ì–‘ì´ ìˆ«ì : %d\n", Cat.getCount());
 		System.out.println(catCount);
 		
-		Cat cat1 = new Cat("¸¶Æ¿´Ù");
-		Cat cat2 = new Cat("¶óÀÌ¾ğ");
-		Cat cat3 = new Cat("¿ï¹ö¸°");
+		Cat cat1 = new Cat("ë§ˆí‹¸ë‹¤");
+		Cat cat2 = new Cat("ë¼ì´ì–¸");
+		Cat cat3 = new Cat("ìš¸ë²„ë¦°");
 
 		System.out.println(cat1.toString());
 		System.out.println(cat2.toString());
@@ -19,14 +19,14 @@ public class App {
 
 		System.out.println(Cat.FOOD);
 
-		catCount = String.format("°í¾çÀÌ ¼ıÀÚ : %d\n", Cat.getCount());
+		catCount = String.format("ê³ ì–‘ì´ ìˆ«ì : %d\n", Cat.getCount());
 		System.out.println(catCount);
 		
 		int x = add(1,1);
 		System.out.println(x);
 
 	}
-	//°´Ã¼°¡ ÇÊ¿äÇÏÁö ¾Ê°í °è»ê¸¸ ÇÏ¹Ç·Î ½ºÅÂÆ½ ¸Ş¼Òµå·Î ÀÚµ¿À¸·Î ±¸ÇöµÈ´Ù.
+	//ê°ì²´ê°€ í•„ìš”í•˜ì§€ ì•Šê³  ê³„ì‚°ë§Œ í•˜ë¯€ë¡œ ìŠ¤íƒœí‹± ë©”ì†Œë“œë¡œ ìë™ìœ¼ë¡œ êµ¬í˜„ëœë‹¤.
 	private static int add(int a, int b) {
 		return a+b;
 	}

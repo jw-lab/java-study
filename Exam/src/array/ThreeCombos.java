@@ -3,7 +3,7 @@ package array;
 public class ThreeCombos {
 
 	public static void main(String[] args) {
-		// 10À» ¸¸µå´Â 3°¡Áö ¼öÀÇ °ö Ãâ·Â
+		// 10ì„ ë§Œë“œëŠ” 3ê°€ì§€ ìˆ˜ì˜ ê³± ì¶œë ¥
 		printCombos(10);
 
 	}
@@ -19,7 +19,7 @@ public class ThreeCombos {
 						count++;
 					}
 		System.out.println("==================");
-		System.out.printf("°æ¿ìÀÇ ¼ö: %d\n",count);
+		System.out.printf("ê²½ìš°ì˜ ìˆ˜: %d\n",count);
 	}
 
 }

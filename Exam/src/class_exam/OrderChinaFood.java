@@ -7,18 +7,18 @@ public class OrderChinaFood {
 		for(int i=0;i<orders.length;i++)
 			orders[i] = new Order();
 		
-		orders[0].setMenu("Â¥Àå");
+		orders[0].setMenu("ì§œìž¥");
 		orders[0].setPrice(4900);
-		orders[1].setMenu("Â«»Í");
+		orders[1].setMenu("ì§¬ë½•");
 		orders[1].setPrice(5900);
-		orders[2].setMenu("ÅÁ¼öÀ°");
+		orders[2].setMenu("íƒ•ìˆ˜ìœ¡");
 		orders[2].setPrice(13900);
 		
 		int result = 0;
 		for(int i=0;i<orders.length;i++)
 			result += orders[i].getPrice();
 		
-		System.out.printf("ÁÖ¹® ÇÕ°è: %d¿ø\n", result);
+		System.out.printf("ì£¼ë¬¸ í•©ê³„: %dì›\n", result);
 
 	}
 

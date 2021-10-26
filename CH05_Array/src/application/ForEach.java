@@ -4,7 +4,7 @@ public class ForEach {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String[] fruits = {"¹Ù³ª³ª","»ç°ú","¼ö¹Ú"};
+		String[] fruits = {"ë°”ë‚˜ë‚˜","ì‚¬ê³¼","ìˆ˜ë°•"};
 		
 		for(String x : fruits)
 			System.out.println(x);

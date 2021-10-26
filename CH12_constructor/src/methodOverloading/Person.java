@@ -2,10 +2,10 @@ package methodOverloading;
 
 public class Person {
 	public void greet() {
-		System.out.println("Çï·Î¿ì");
+		System.out.println("í—¬ë¡œìš°");
 	}
 	
 	public void greet(String name) {
-		System.out.println("Çï·Î¿ì"+name);
+		System.out.println("í—¬ë¡œìš°"+name);
 	}
 }

@@ -12,9 +12,9 @@ public class CylinderTest {
 		double vol = cyl.getVolume(r, h);
 		double area = cyl.getArea(r, h);
 		
-		System.out.printf("¿ø±âµÕÀÇ ºÎÇÇ: %.2f\n",vol);
+		System.out.printf("ì›ê¸°ë‘¥ì˜ ë¶€í”¼: %.2f\n",vol);
 
-		System.out.printf("¿ø±âµÕÀÇ °Ñ³ĞÀÌ: %.2f\n",area);
+		System.out.printf("ì›ê¸°ë‘¥ì˜ ê²‰ë„“ì´: %.2f\n",area);
 
 	}
 

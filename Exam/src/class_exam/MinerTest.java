@@ -4,8 +4,8 @@ public class MinerTest {
 
 	public static void main(String[] args) {
 		Miner[] miner =new Miner[2];
-		miner[0]= new Miner("¸»·±");
-		miner[1]= new Miner("±Û·Î¸®¾Æ");
+		miner[0]= new Miner("ë§ëŸ°");
+		miner[1]= new Miner("ê¸€ë¡œë¦¬ì•„");
 		
 		for(int i=0;i<3;i++)
 			miner[0].mine();

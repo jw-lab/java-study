@@ -3,16 +3,16 @@ package method;
 public class RareItem {
 
 	public static void main(String[] args) {
-		wear(2400,2000); // Ã¼·Â 2400, ¸¶·Â 2000 => ¾ÆÀÌÅÛ ÀåÂø ¿Ï·á!
-		wear(3800,1200); // Ã¼·Â 3800, ¸¶·Â 1200 => ¾ÆÀÌÅÛÀ» Âø¿ëÇÒ ¼ö ¾ø½À´Ï´Ù.
+		wear(2400,2000); // ì²´ë ¥ 2400, ë§ˆë ¥ 2000 => ì•„ì´í…œ ì¥ì°© ì™„ë£Œ!
+		wear(3800,1200); // ì²´ë ¥ 3800, ë§ˆë ¥ 1200 => ì•„ì´í…œì„ ì°©ìš©í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.
 		
 	}
 
 	private static void wear(int hp, int mp) {
 		if(hp >= 2000 && mp >=2000)
-			System.out.println("¾ÆÀÌÅÛ ÀåÂø ¿Ï·á!");
+			System.out.println("ì•„ì´í…œ ì¥ì°© ì™„ë£Œ!");
 		else
-			System.out.println("¾ÆÀÌÅÛÀ» Âø¿ëÇÒ ¼ö ¾ø½À´Ï´Ù.");
+			System.out.println("ì•„ì´í…œì„ ì°©ìš©í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 	}
 
 }

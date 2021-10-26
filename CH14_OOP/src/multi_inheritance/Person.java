@@ -4,12 +4,12 @@ public class Person implements Speaker,Greeter{
 
 	@Override
 	public void greet() {
-		System.out.println("È¯¿µÇÕ´Ï´Ù~");
+		System.out.println("í™˜ì˜í•©ë‹ˆë‹¤~");
 	}
 
 	@Override
 	public void speak() {
-		System.out.println("³ª´Â person ÀÔ´Ï´Ù");
+		System.out.println("ë‚˜ëŠ” person ì…ë‹ˆë‹¤");
 	}
 
 }

@@ -1,11 +1,11 @@
 package enum_constructor;
 
 public enum Fruit {
-	APPLE("ÃÊ·Ï»ö"),BANANA("³ë¶õ»ö"),ORANGE("¿À·»Áö»ö");
+	APPLE("ì´ˆë¡ìƒ‰"),BANANA("ë…¸ë€ìƒ‰"),ORANGE("ì˜¤ë Œì§€ìƒ‰");
 	
 	private String color;
 	
-	Fruit(String color){//public ¾øÀ½
+	Fruit(String color){//public ì—†ìŒ
 		this.color = color;
 	}
 	

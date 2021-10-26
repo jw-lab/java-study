@@ -7,7 +7,7 @@ public class Conditions {
 		int count =0;
 		
 		while(count++<10) {
-			System.out.printf("ī��Ʈ : %d\n", count);
+			System.out.printf("카운트 : %d\n", count);
 		}
 	}
 

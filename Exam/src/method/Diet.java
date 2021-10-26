@@ -9,18 +9,18 @@ public class Diet {
 		double bmi = calculate(weight,height);
 		
 		System.out.printf("BMI: %.2f(%.1fkg, %.2fm)",bmi,weight,height);
-		System.out.printf("°á°ú: %sÀÔ´Ï´Ù.\n",result(bmi));
+		System.out.printf("ê²°ê³¼: %sì…ë‹ˆë‹¤.\n",result(bmi));
 	}
 
 	private static String result(double bmi) {
 		if(bmi>=30)
-			return "ºñ¸¸";
+			return "ë¹„ë§Œ";
 		else if(bmi>=25)
-			return "°úÃ¼Áß";
+			return "ê³¼ì²´ì¤‘";
 		else if(bmi>=18.5)
-			return "Á¤»ó";
+			return "ì •ìƒ";
 		else
-			return "ÀúÃ¼Áß";
+			return "ì €ì²´ì¤‘";
 	}
 
 	private static double calculate(double w, double t) {

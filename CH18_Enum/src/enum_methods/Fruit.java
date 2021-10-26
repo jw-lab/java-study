@@ -1,5 +1,5 @@
 package enum_methods;
 
-public enum Fruit { //enumÀº »ó¼ö(º¯ÇÏÁö ¾Ê´Â °ª)µéÀÇ ÁıÇÕ
+public enum Fruit { //enumì€ ìƒìˆ˜(ë³€í•˜ì§€ ì•ŠëŠ” ê°’)ë“¤ì˜ ì§‘í•©
 	APPLE,BANANA,ORANGE
 }

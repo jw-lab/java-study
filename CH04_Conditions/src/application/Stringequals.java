@@ -7,8 +7,8 @@ public class Stringequals {
 		String text1 = "apple";
 		String text2 = "orange";
 		
-		System.out.printf("µÎ°³ÀÇ ¹®ÀÚ¿­ ÀÏÄ¡ : %b\n", text1 == text2);
-		System.out.println("µÎ°³ÀÇ ¹®ÀÚ¿­ ÀÏÄ¡ : " + text1.equals(text2));
+		System.out.printf("ë‘ê°œì˜ ë¬¸ìì—´ ì¼ì¹˜ : %b\n", text1 == text2);
+		System.out.println("ë‘ê°œì˜ ë¬¸ìì—´ ì¼ì¹˜ : " + text1.equals(text2));
 	}
 
 }

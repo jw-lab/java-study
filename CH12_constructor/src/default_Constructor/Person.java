@@ -5,20 +5,20 @@ public class Person {
 	private int age;
 	
 	public Person() {
-		System.out.println("µğÆúÆ® »ı¼ºÀÚ");
-		name = "¸ğ¸§";
+		System.out.println("ë””í´íŠ¸ ìƒì„±ì");
+		name = "ëª¨ë¦„";
 		age = 0;
 	}
 	
 	public Person(String name) {
-		System.out.println("person »ı¼ºÀÚ1");
+		System.out.println("person ìƒì„±ì1");
 		this.name = name;
 		age=0;
 	}
 	
 	
 	public Person(String name, int age) {
-		System.out.println("person »ı¼ºÀÚ2");
+		System.out.println("person ìƒì„±ì2");
 		this.name = name;
 		this.age = age;
 	}

@@ -8,7 +8,7 @@ public class App3 {
 	public static void main(String[] args) {
 		
 		int number = getNumber();
-		System.out.println("ÀÔ·ÂÇÑ ¼ıÀÚ´Â : " + number);
+		System.out.println("ì…ë ¥í•œ ìˆ«ìëŠ” : " + number);
 		scan.close();
 		
 	}
@@ -18,13 +18,13 @@ public class App3 {
 		int number=0;
 		boolean isNumber = false;
 		do {
-			System.out.print("¼ıÀÚ¸¦ ÀÔ·Â : ");
+			System.out.print("ìˆ«ìë¥¼ ì…ë ¥ : ");
 			String line = scan.nextLine();
 			try {
 				number = Integer.parseInt(line);
 				isNumber = true;
 			} catch (Exception e) {
-				System.out.println("¼ıÀÚ ÀÔ·ÂÀÌ ¾Æ´Õ´Ï´Ù.");
+				System.out.println("ìˆ«ì ì…ë ¥ì´ ì•„ë‹™ë‹ˆë‹¤.");
 			}
 		} while (!isNumber);
 

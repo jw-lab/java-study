@@ -13,21 +13,21 @@ public class CheckPassLimit {
 		
 		String password ="";
 		for(int i=0;i<3;i++) {
-			System.out.print("ºñ¹Ð¹øÈ£ ÀÔ·Â: ");
+			System.out.print("ë¹„ë°€ë²ˆí˜¸ ìž…ë ¥: ");
 			password = scan.nextLine();
 			
 			if(password.equals(USER_PASSWORD)) {
-				System.out.println("Á¢¼Ó½ÂÀÎ");
+				System.out.println("ì ‘ì†ìŠ¹ì¸");
 				accessOK = true;
 				break;
 			} else {
-				System.out.println("ºñ¹øÀÌ Æ²·È½À´Ï´Ù.");
+				System.out.println("ë¹„ë²ˆì´ í‹€ë ¸ìŠµë‹ˆë‹¤.");
 			}
 		}
 		
 		scan.close();
 		if(!accessOK)
-			System.out.println("Á¢¼Ó°ÅºÎ");
+			System.out.println("ì ‘ì†ê±°ë¶€");
 	}
 
 }

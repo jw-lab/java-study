@@ -3,7 +3,7 @@ package array;
 public class TopScoreStudent {
 
 	public static void main(String[] args) {
-		// ¹è¿­»ı¼º
+		// ë°°ì—´ìƒì„±
 		String[] names = {
 				"Elena",
 				"Suzie",
@@ -19,11 +19,11 @@ public class TopScoreStudent {
 				65,74,23,75,68,96,88,98,54
 		};
 		
-		//1µî ÀÎµ¦½º °Ë»ö
+		//1ë“± ì¸ë±ìŠ¤ ê²€ìƒ‰
 		int i = topIndex(scores);
 		
-		//°á°ú Ãâ·Â
-		System.out.printf("1µî: %s(%dÁ¡)\n",names[i],scores[i]);
+		//ê²°ê³¼ ì¶œë ¥
+		System.out.printf("1ë“±: %s(%dì )\n",names[i],scores[i]);
 
 	}
 

@@ -3,15 +3,15 @@ package method;
 public class DatinaApp {
 
 	public static void main(String[] args) {
-		// Æò°¡
+		// í‰ê°€
 		String x = rating(4.2,4.7,4.3);
 		String y = rating(3.8,4.1,3.5);
 		String z = rating(3.6,3.0,3.4);
 		
-		//Ãâ·Â
-		System.out.printf("X -> %sµî±Þ\n",x);
-		System.out.printf("Y -> %sµî±Þ\n",y);
-		System.out.printf("Z -> %sµî±Þ\n",z);
+		//ì¶œë ¥
+		System.out.printf("X -> %së“±ê¸‰\n",x);
+		System.out.printf("Y -> %së“±ê¸‰\n",y);
+		System.out.printf("Z -> %së“±ê¸‰\n",z);
 	}
 
 	private static String rating(double d, double e, double f) {

@@ -12,7 +12,7 @@ public class Person {
 	public Person(String name, double height) {
 		this.name = name;
 		this.height = height;
-		System.out.println("ÇÑ »ç¶÷À» »ı¼º!");
+		System.out.println("í•œ ì‚¬ëŒì„ ìƒì„±!");
 	}
 
 	public String getName() {

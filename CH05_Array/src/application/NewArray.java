@@ -11,12 +11,12 @@ public class NewArray {
 		Scanner scan = new Scanner(System.in);
 
 		for (int i = 0; i < numbers.length; i++) {
-			System.out.print("¼ýÀÚ¸¦ ÀÔ·Â: ");
+			System.out.print("ìˆ«ìžë¥¼ ìž…ë ¥: ");
 			numbers[i] = scan.nextInt();
 			total += numbers[i];
 		}
 		scan.close();
-		System.out.println("ÀÔ·ÂÇÑ °ªÀº:");
+		System.out.println("ìž…ë ¥í•œ ê°’ì€:");
 		
 		for (int i = 0; i < numbers.length; i++) {
 			System.out.println(numbers[i]);

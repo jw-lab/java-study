@@ -15,10 +15,10 @@ public class CheckPassword {
 		scan.close();
 		
 		if(password.equals(USER_PASSWORD)) {
-			System.out.println("立加 铰牢.");
+			System.out.println("鞝戩啀 鞀轨澑.");
 		}
 		else {
-			System.out.println("立加 阂啊.");
+			System.out.println("鞝戩啀 攵堦皜.");
 		}
 	}
 

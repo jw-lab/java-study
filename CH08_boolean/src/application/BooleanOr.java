@@ -5,9 +5,9 @@ public class BooleanOr {
 	public static void main(String[] args) {
 		// == , !=, !, &&, ||
 		
-		boolean isRaining = true;	//ºñ°¡ ¿À´Â°¡?
-		boolean mightRain = false;	//ºñ°¡ ¿Ã ¼öµµ ÀÖ´Â°¡?
-		boolean takeUmbrella = false;	//¿ì»êÀ» ¾²³ª?
+		boolean isRaining = true;	//ë¹„ê°€ ì˜¤ëŠ”ê°€?
+		boolean mightRain = false;	//ë¹„ê°€ ì˜¬ ìˆ˜ë„ ìˆëŠ”ê°€?
+		boolean takeUmbrella = false;	//ìš°ì‚°ì„ ì“°ë‚˜?
 		
 		takeUmbrella = isRaining || mightRain;
 		

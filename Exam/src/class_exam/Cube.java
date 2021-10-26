@@ -21,7 +21,7 @@ public class Cube {
 
 	@Override
 	public String toString() {
-		return "Á¤À°¸éÃ¼ " + name + "ÀÇ ºÎÇÇ: " + getVolume() + ", °Ñ³ĞÀÌ:" +getSurface();
+		return "ì •ìœ¡ë©´ì²´ " + name + "ì˜ ë¶€í”¼: " + getVolume() + ", ê²‰ë„“ì´:" +getSurface();
 	}
 
 	

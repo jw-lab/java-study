@@ -8,12 +8,12 @@ public class Hangman {
 	private Scanner scan = new Scanner(System.in);
 	private int remainTries = 7;
 	private char lastGuess;
-	public void run() {//ÇÁ·Î±×·¥ ½ÃÀÛ -> ¹İº¹
+	public void run() {//í”„ë¡œê·¸ë¨ ì‹œì‘ -> ë°˜ë³µ
 		do {
-			displayWord(); 	//È­¸é¿¡ ´Ü¾îÇ¥½Ã
-			getUserInput();	//ÀÔ·Â¹ŞÀ½
-			checkUserInput();	//¸Â´ÂÁö Ã¼Å© =>¸ÂÀ» ½Ã running=false;
-		} while(running); // false°¡ µÇ¸é ¹İº¹ Á¾·á
+			displayWord(); 	//í™”ë©´ì— ë‹¨ì–´í‘œì‹œ
+			getUserInput();	//ì…ë ¥ë°›ìŒ
+			checkUserInput();	//ë§ëŠ”ì§€ ì²´í¬ =>ë§ì„ ì‹œ running=false;
+		} while(running); // falseê°€ ë˜ë©´ ë°˜ë³µ ì¢…ë£Œ
 	}
 
 	private void checkUserInput() {
@@ -22,9 +22,9 @@ public class Hangman {
 		
 		if(isCorrect) {
 			if(word.isComplete()) {
-				System.out.println("¸ÂÃè¾î¿ä!!");
-				System.out.println("½ÃµµÈ½¼ö : "+ remainTries);
-				System.out.println("Á¤´äÀº : "+word.toString());
+				System.out.println("ë§ì·„ì–´ìš”!!");
+				System.out.println("ì‹œë„íšŸìˆ˜ : "+ remainTries);
+				System.out.println("ì •ë‹µì€ : "+word.toString());
 				running = false;
 			}
 		} else {
@@ -39,13 +39,13 @@ public class Hangman {
 
 	private void getUserInput() {
 
-		System.out.print("ÇÑ ¹®ÀÚ ÀÔ·Â : ");
+		System.out.print("í•œ ë¬¸ì ì…ë ¥ : ");
 		String guess = scan.nextLine();
 		lastGuess = guess.charAt(0);
 	}
 
 	private void displayWord() {
-		System.out.println("³²Àº ½Ãµµ È½¼ö : "+remainTries);
+		System.out.println("ë‚¨ì€ ì‹œë„ íšŸìˆ˜ : "+remainTries);
 		System.out.println(word.toString());
 	}
 

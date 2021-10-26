@@ -3,9 +3,9 @@ package array;
 public class Factorial {
 
 	public static void main(String[] args) {
-		// ÀÔ·Â°ª ¹Þ±â
+		// ìž…ë ¥ê°’ ë°›ê¸°
 		
-		// °á°ú Ãâ·Â
+		// ê²°ê³¼ ì¶œë ¥
 		printFactorial(4);
 
 	}

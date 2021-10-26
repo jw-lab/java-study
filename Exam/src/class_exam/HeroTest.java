@@ -3,8 +3,8 @@ package class_exam;
 public class HeroTest {
 
 	public static void main(String[] args) {
-		Hero arthas = new Hero("¾Æ¼­½º", 30);
-		Hero leona = new Hero("·¹¿À³ª", 30);
+		Hero arthas = new Hero("ì•„ì„œìŠ¤", 30);
+		Hero leona = new Hero("ë ˆì˜¤ë‚˜", 30);
 		
 		Hero.battle(arthas,leona);
 	}

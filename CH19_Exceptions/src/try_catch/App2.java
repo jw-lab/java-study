@@ -7,7 +7,7 @@ public class App2 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("¼ıÀÚ¸¦ ÀÔ·Â : ");
+		System.out.print("ìˆ«ìë¥¼ ì…ë ¥ : ");
 		String line = scan.nextLine();
 		
 		int number = 0;
@@ -17,11 +17,11 @@ public class App2 {
 			number = Integer.parseInt(line);
 			isNumber = true;
 		} catch (Exception e) {
-			System.out.println("¼ıÀÚ ÀÔ·ÂÀÌ ¾Æ´Õ´Ï´Ù.");
+			System.out.println("ìˆ«ì ì…ë ¥ì´ ì•„ë‹™ë‹ˆë‹¤.");
 		}
 		
 		if(isNumber)
-			System.out.println("ÀÔ·ÂÇÑ ¼ıÀÚ´Â : " + number);
+			System.out.println("ì…ë ¥í•œ ìˆ«ìëŠ” : " + number);
 		scan.close();
 	}
 

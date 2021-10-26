@@ -8,7 +8,7 @@ public class PointTest {
 		
 		double dist = Point.distance(p1, p2);
 		
-		System.out.printf("µÎ Á¡ A%s, B%s »çÀÌÀÇ °Å¸®: %.2f",p1.toString(),p2.toString(),dist);
+		System.out.printf("ë‘ ì  A%s, B%s ì‚¬ì´ì˜ ê±°ë¦¬: %.2f",p1.toString(),p2.toString(),dist);
 		
 	}
 

@@ -3,27 +3,27 @@ package array;
 public class AEIOU {
 
 	public static void main(String[] args) {
-		// ¹®ÀÚ¿­ º¯¼ö »ı¼º
+		// ë¬¸ìì—´ ë³€ìˆ˜ ìƒì„±
 		String s = "Programming is fun! right?";
 		
-		// ÀÚÀ½ ¸ğÀ½ °¹¼ö ¼¼±â
+		// ììŒ ëª¨ìŒ ê°¯ìˆ˜ ì„¸ê¸°
 		int[] result = count(s);
 		
-		// °á°ú Ãâ·Â
-		System.out.printf("%s\n=> ÀÚÀ½ %d°³, ¸ğÀ½ %d°³",s,result[0],result[1]);
+		// ê²°ê³¼ ì¶œë ¥
+		System.out.printf("%s\n=> ììŒ %dê°œ, ëª¨ìŒ %dê°œ",s,result[0],result[1]);
 
 	}
 
 	private static int[] count(String s) {
-		int conso = 0; //ÀÚÀ½
-		int vowel = 0; //¸ğÀ½
+		int conso = 0; //ììŒ
+		int vowel = 0; //ëª¨ìŒ
 		
 		
-		//¹®ÀÚ¿­À» ¹®ÀÚµéÀÇ ¹è¿­·Î ¸¸µé±â ->½ºÆ®¸µ.toCharArray()
+		//ë¬¸ìì—´ì„ ë¬¸ìë“¤ì˜ ë°°ì—´ë¡œ ë§Œë“¤ê¸° ->ìŠ¤íŠ¸ë§.toCharArray()
 		//{'P','R','O','G'.....}
-		char[] characters = s.toUpperCase().toCharArray();// ´ë¹®ÀÚ·Î ¹Ù²ÛµÚ ¹è¿­·Î
+		char[] characters = s.toUpperCase().toCharArray();// ëŒ€ë¬¸ìë¡œ ë°”ê¾¼ë’¤ ë°°ì—´ë¡œ
 		
-		//¸ğµç ¹®ÀÚ ¹è¿­À» ¼øÈ¸ÇÏ¸ç °Ë»ç
+		//ëª¨ë“  ë¬¸ì ë°°ì—´ì„ ìˆœíšŒí•˜ë©° ê²€ì‚¬
 		for(int i=0;i<characters.length;i++) {
 			switch(characters[i]) {
 			case 'A':
@@ -34,17 +34,17 @@ public class AEIOU {
 				vowel++;
 				break;
 				
-			//°ø¹é ¹× Æ¯¼ö ¹®ÀÚ Á¦¿Ü
-			case ' ':	//½ºÆäÀÌ½º
-			case '\t':	//ÅÇ
-			case '\n':	//¿£ÅÍ
-			case ',':	//ÄŞ¸¶
-			case '.':	//´å
-			case '?':	//¹°À½Ç¥
-			case '!':	//´À³¦Ç¥
+			//ê³µë°± ë° íŠ¹ìˆ˜ ë¬¸ì ì œì™¸
+			case ' ':	//ìŠ¤í˜ì´ìŠ¤
+			case '\t':	//íƒ­
+			case '\n':	//ì—”í„°
+			case ',':	//ì½¤ë§ˆ
+			case '.':	//ë‹·
+			case '?':	//ë¬¼ìŒí‘œ
+			case '!':	//ëŠë‚Œí‘œ
 				break;
 			
-			//±× ¿Ü(ÀÚÀ½)
+			//ê·¸ ì™¸(ììŒ)
 			default:
 				conso++;
 				break;

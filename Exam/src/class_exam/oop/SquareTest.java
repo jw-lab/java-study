@@ -7,7 +7,7 @@ public class SquareTest {
 		
 		s.setLength(4);
 		
-		System.out.printf("ÇÑ º¯ÀÇ ±æÀÌ°¡ %dÀÎ Á¤»ç°¢ÇüÀÇ ³ĞÀÌ: %d",s.getLength(),s.area());
+		System.out.printf("í•œ ë³€ì˜ ê¸¸ì´ê°€ %dì¸ ì •ì‚¬ê°í˜•ì˜ ë„“ì´: %d",s.getLength(),s.area());
 		
 	}
 

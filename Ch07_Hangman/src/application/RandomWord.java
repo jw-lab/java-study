@@ -6,13 +6,13 @@ public class RandomWord {
 	private String books= "interface flatware straight psychology inflation partnership original vertical possible priority medieval concentration distortion demonstrator paralyzed president brilliance investment contrary magnetic";
 	private String[] word = books.split(" ");
 	
-	private String selectWord; //¼±ÅÃÇÑ ´Ü¾î
+	private String selectWord; //ì„ íƒí•œ ë‹¨ì–´
 	private Random rand = new Random();
 	private char[] characters;
 	
 	
-	public RandomWord() {//»ı¼ºÀÚ·Î »ı¼º½Ã ·£´ı ´Ü¾î ¼±ÅÃ
-		selectWord = word[rand.nextInt(word.length)]; // random.nextInt(¼ıÀÚ) --> 0~ÇØ´ç¼ıÀÚ¹Ì¸¸ ±îÁö ·£´ı¼ıÀÚ  
+	public RandomWord() {//ìƒì„±ìë¡œ ìƒì„±ì‹œ ëœë¤ ë‹¨ì–´ ì„ íƒ
+		selectWord = word[rand.nextInt(word.length)]; // random.nextInt(ìˆ«ì) --> 0~í•´ë‹¹ìˆ«ìë¯¸ë§Œ ê¹Œì§€ ëœë¤ìˆ«ì  
 		characters = new char[selectWord.length()];
 	}
 	
@@ -33,16 +33,16 @@ public class RandomWord {
 		char[] temp=new char[selectWord.length()];
 		
 		for(int i=0;i<characters.length;i++)
-			temp[i]=characters[i];	//ÀÓ½Ã ¹è¿­ »ı¼º
+			temp[i]=characters[i];	//ì„ì‹œ ë°°ì—´ ìƒì„±
 		
 		for(int i=0;i<selectWord.length();i++)
 			if(c == selectWord.charAt(i))
-				characters[i] = c;	//³Ñ°Ü¹ŞÀº ¹®ÀÚ°¡ ¼±ÅÃµÈ ´Ü¾î¿Í ÀÏÄ¡ÇÏ¸é ´ëÀÔ,´Ü¾î ³¡±îÁö ÁøÇàµÈ´Ù.
+				characters[i] = c;	//ë„˜ê²¨ë°›ì€ ë¬¸ìê°€ ì„ íƒëœ ë‹¨ì–´ì™€ ì¼ì¹˜í•˜ë©´ ëŒ€ì…,ë‹¨ì–´ ëê¹Œì§€ ì§„í–‰ëœë‹¤.
 		
 		for(int i=0;i<selectWord.length();i++)
 			if(temp[i] != characters[i])
-				return true;	//±âÁ¸°ª°ú º¯°æµÈ°ªÀ» ºñ±³ÇÏ¿© ¼­·Î ´Ù¸£¸é true¹İÈ¯ 
-		//addGuessÀÇ ¸®ÅÏ°ªÀÌ isCorrect·Î °¡¼­ trueÀÌ¸é isComplete¸¦ ´Ù½Ã ½ÇÇà
+				return true;	//ê¸°ì¡´ê°’ê³¼ ë³€ê²½ëœê°’ì„ ë¹„êµí•˜ì—¬ ì„œë¡œ ë‹¤ë¥´ë©´ trueë°˜í™˜ 
+		//addGuessì˜ ë¦¬í„´ê°’ì´ isCorrectë¡œ ê°€ì„œ trueì´ë©´ isCompleteë¥¼ ë‹¤ì‹œ ì‹¤í–‰
 				
 		
 		return false;

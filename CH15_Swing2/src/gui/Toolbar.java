@@ -22,11 +22,11 @@ public class Toolbar extends JToolBar {
 		JButton redButton = new JButton("RED");
 		JButton blueButton = new JButton("BLUE");
 		
-		//¶÷´Ù½Ä : (¸Å°³º¯¼öµé)->{ÇÔ¼öÄÚµå}
-		//¸Å°³º¯¼ö°¡ ÇÏ³ªÀÌ°Å³ª ÇÔ¼öÄÚµå°¡ ÇÏ³ª¸é (),{}»ı·«°¡´É
+		//ëŒë‹¤ì‹ : (ë§¤ê°œë³€ìˆ˜ë“¤)->{í•¨ìˆ˜ì½”ë“œ}
+		//ë§¤ê°œë³€ìˆ˜ê°€ í•˜ë‚˜ì´ê±°ë‚˜ í•¨ìˆ˜ì½”ë“œê°€ í•˜ë‚˜ë©´ (),{}ìƒëµê°€ëŠ¥
 		redButton.addActionListener(e->colorChanger.changeColor(Color.RED));
 		
-		blueButton.addActionListener(new ActionListener() {//ÀÍ¸íÅ¬·¡½º
+		blueButton.addActionListener(new ActionListener() {//ìµëª…í´ë˜ìŠ¤
 			public void actionPerformed(ActionEvent e) {
 				colorChanger.changeColor(Color.BLUE);
 			}

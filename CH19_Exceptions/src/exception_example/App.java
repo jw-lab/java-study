@@ -3,9 +3,9 @@ package exception_example;
 public class App {
 
 	public static void main(String[] args) throws InterruptedException {
-		System.out.println("ÇÏ³ª");
-		Thread.sleep(2000); // 2ÃÊ ÇÁ·Î±×·¥ ´ë±â
-		System.out.println("µÑ");
+		System.out.println("í•˜ë‚˜");
+		Thread.sleep(2000); // 2ì´ˆ í”„ë¡œê·¸ëž¨ ëŒ€ê¸°
+		System.out.println("ë‘˜");
 	}
 
 }

@@ -9,18 +9,18 @@ public class If {
 		int bananas;
 		
 		Scanner scan = new Scanner(System.in);
-		System.out.print("»ç°úÀÇ °³¼ö´Â ? ");
+		System.out.print("ì‚¬ê³¼ì˜ ê°œìˆ˜ëŠ” ? ");
 		apples = scan.nextInt();
-		System.out.print("¹Ù³ª³ªÀÇ °³¼ö´Â ? ");
+		System.out.print("ë°”ë‚˜ë‚˜ì˜ ê°œìˆ˜ëŠ” ? ");
 		bananas = scan.nextInt();
 		scan.close();
 		if(apples > bananas) {
-			System.out.println("»ç°ú°¡ ¹Ù³ª³ªº¸´Ù ¸¹À½");
+			System.out.println("ì‚¬ê³¼ê°€ ë°”ë‚˜ë‚˜ë³´ë‹¤ ë§ìŒ");
 		}
 		else {
-			System.out.println("¹Ù³ª³ª°¡ »ç°úº¸´Ù ¸¹°Å³ª °°À½");
+			System.out.println("ë°”ë‚˜ë‚˜ê°€ ì‚¬ê³¼ë³´ë‹¤ ë§ê±°ë‚˜ ê°™ìŒ");
 		}
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+		System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 	}
 
 }

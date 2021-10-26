@@ -5,20 +5,20 @@ public class BooleanAnd {
 	public static void main(String[] args) {
 		// == , !=, !, &&, ||
 		
-		boolean isRaining = false;	//ºñ°¡ ¿À´Â°¡?
-		boolean haveUmbrella = true;	//¿ì»êÀÌ ÀÖ´Â°¡?
-		boolean takeUmbrella = false;	//¿ì»êÀ» ¾²³ª?
+		boolean isRaining = false;	//ë¹„ê°€ ì˜¤ëŠ”ê°€?
+		boolean haveUmbrella = true;	//ìš°ì‚°ì´ ìˆëŠ”ê°€?
+		boolean takeUmbrella = false;	//ìš°ì‚°ì„ ì“°ë‚˜?
 		
 		
-		//ºñ°¡ ¿À°í ¿ì»êÀÌ ÀÖÀ¸¸é ¿ì»êÀ» ¾´´Ù.
+		//ë¹„ê°€ ì˜¤ê³  ìš°ì‚°ì´ ìˆìœ¼ë©´ ìš°ì‚°ì„ ì“´ë‹¤.
 		if(isRaining && haveUmbrella) {
 			takeUmbrella = true;
 		}
 		
-		System.out.println("Ã¹¹øÂ° °æ¿ì : " + takeUmbrella);
+		System.out.println("ì²«ë²ˆì§¸ ê²½ìš° : " + takeUmbrella);
 		
 		takeUmbrella = isRaining && haveUmbrella ?true:false;
-		System.out.println("¸¶Áö¸· °æ¿ì : " + takeUmbrella);
+		System.out.println("ë§ˆì§€ë§‰ ê²½ìš° : " + takeUmbrella);
 		
 	}
 

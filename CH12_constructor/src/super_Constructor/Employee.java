@@ -2,6 +2,6 @@ package super_Constructor;
 
 public class Employee extends Person{
 	public Employee() {
-		super("ÀÍ¸í");
+		super("ìµëª…");
 	}
 }

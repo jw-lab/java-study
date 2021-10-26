@@ -3,17 +3,17 @@ package array;
 public class Bacteria {
 
 	public static void main(String[] args) {
-		//¹è¿­ »ı¼º
+		//ë°°ì—´ ìƒì„±
 		int[] bacteria = new int[10];
-		//°³Ã¼ ¼ö ±â·Ï
+		//ê°œì²´ ìˆ˜ ê¸°ë¡
 		writeLog(bacteria);
 
-		//°á°ú Ãâ·Â
+		//ê²°ê³¼ ì¶œë ¥
 		printLog(bacteria);
 
 	}
 	
-	// ¹ÚÅ×¸®¾Æ °³Ã¼ ¼ö ±â·Ï
+	// ë°•í…Œë¦¬ì•„ ê°œì²´ ìˆ˜ ê¸°ë¡
 	private static void writeLog(int[] bacteria) {
 		int result = 1;
 		
@@ -24,7 +24,7 @@ public class Bacteria {
 		
 	}
 
-	//¹è¿­À» ÀÔ·Â¹Ş¾Æ Ãâ·Â
+	//ë°°ì—´ì„ ì…ë ¥ë°›ì•„ ì¶œë ¥
 	private static void printLog(int[] bacteria) {
 		System.out.print("[");
 		for(int i=0;i<bacteria.length;i++) {

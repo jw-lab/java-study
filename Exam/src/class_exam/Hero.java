@@ -18,15 +18,15 @@ public class Hero {
 	}
 
 	public static void battle(Hero a, Hero b) {
-		boolean attack = true; //attackÀÌ ÂüÀÌ¸é a°¡ ÆİÄ¡¸¦ ³¯¸°´Ù.
+		boolean attack = true; //attackì´ ì°¸ì´ë©´ aê°€ í€ì¹˜ë¥¼ ë‚ ë¦°ë‹¤.
 		while(a.hp>0 && b.hp>0) {
 			if(attack) {
 				a.punch(b);
-				System.out.printf("[%s]ÀÇ ÆİÄ¡\n",a.name);
+				System.out.printf("[%s]ì˜ í€ì¹˜\n",a.name);
 				System.out.printf("%s: %d/30\n",b.name,b.hp);
 			} else {
 				b.punch(a);
-				System.out.printf("[%s]ÀÇ ÆİÄ¡\n",b.name);
+				System.out.printf("[%s]ì˜ í€ì¹˜\n",b.name);
 				System.out.printf("%s: %d/30\n",a.name,a.hp);
 			}
 			

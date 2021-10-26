@@ -7,13 +7,13 @@ public class ItemTest {
 		for(int i=0;i<items.length;i++)
 			items[i] = new Item();
 		
-		items[0].setName("½ºÅè ºê·¹ÀÌÄ¿");
+		items[0].setName("ìŠ¤í†° ë¸Œë ˆì´ì»¤");
 		items[0].setPower(600);
-		items[1].setName("ÀÎÇÇ´ÏÆ¼ °ÇÆ²·¿");
+		items[1].setName("ì¸í”¼ë‹ˆí‹° ê±´í‹€ë ›");
 		items[1].setPower(999);
-		items[2].setName("È£Å©¾ÆÀÌÀÇ È°");
+		items[2].setName("í˜¸í¬ì•„ì´ì˜ í™œ");
 		items[2].setPower(50);
-		items[3].setName("Ä¸Æ¾¾Æ¸Þ¸®Ä«ÀÇ ¹æÆÐ");
+		items[3].setName("ìº¡í‹´ì•„ë©”ë¦¬ì¹´ì˜ ë°©íŒ¨");
 		items[3].setPower(50);
 		
 		for(int i=0;i<items.length;i++)

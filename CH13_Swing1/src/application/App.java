@@ -7,14 +7,14 @@ import gui.MainFrame;
 public class App {
 
 	public static void main(String[] args) {
-		//ÇÁ·Î±×·¥ÀÇ ¾ÈÁ¤¼ºÀ» À§ÇØ ±ÇÀåÇÏ´Â ÄÚµå(½ºÀ®À¯Æ¿¸®Æ¼ ¾È¿¡ ÄÚµå¸¦ ³Ö´Â´Ù.)
+		//í”„ë¡œê·¸ë¨ì˜ ì•ˆì •ì„±ì„ ìœ„í•´ ê¶Œì¥í•˜ëŠ” ì½”ë“œ(ìŠ¤ìœ™ìœ í‹¸ë¦¬í‹° ì•ˆì— ì½”ë“œë¥¼ ë„£ëŠ”ë‹¤.)
 		/*
 		SwingUtilities.invokeLater(()->{
-			¿©±â¾È¿¡ ÄÚµå¸¦ ³Ö´Â´Ù.
+			ì—¬ê¸°ì•ˆì— ì½”ë“œë¥¼ ë„£ëŠ”ë‹¤.
 		});
 		*/
 		SwingUtilities.invokeLater(()->{
-			new MainFrame("Test Swing App"); // »õ Ã¢ »ı¼º
+			new MainFrame("Test Swing App"); // ìƒˆ ì°½ ìƒì„±
 		});
 		
 	}
