@@ -41,14 +41,19 @@ public class World {
 	}
 
 	public void randomize() {
+		//그리드 배열에 랜덤으로 true false 넣기
 		Random rand= new Random();
-		int row = rand.nextInt(rows);
-		int col = rand.nextInt(columns);
-		grid[row][col] = true;
+		
+		for(int i=0;i< (rows*columns)/10;i++) {//대략적인 숫자만큼 반복			
+			int row = rand.nextInt(rows);//랜덤으로 0~rows(전체줄수)-1 까지 생성
+			int col = rand.nextInt(columns);//0 ~ columns-1
+			setCell(row,col,true); //랜덤으로 걸린 셀을 녹색으로
+		}
 		
 	}
 
 	public void clear() {
+		//모든 grid의 셀을 false로 만든다
 		for(int row=0;row<rows;row++)
 			for(int col=0;col<columns;col++)
 			setCell(row, col, false);
