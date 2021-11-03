@@ -9,6 +9,9 @@ public class App {
 		HashSet<Creature> cretures = new HashSet<>();
 		
 		//셋 형에서 중복의 비교는 객체의 equals 메소드를 사용해 같으면 제외
+		
+		//기본 equals 메소드는 Object클래스를 상속받아 사용하므로 객체가 같은지를 비교
+		//셋은 중복을 허용하지 않으므로 equals메소드를 사용하는데 이를 오버라이드하여 커스텀하게 사용가능
 		cretures.add(new Creature(0, "고양이"));
 		cretures.add(new Creature(1, "개"));
 		cretures.add(new Creature(2, "돼지"));
